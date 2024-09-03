@@ -1,0 +1,259 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background-color:rgb(77, 76, 76); */
+   
+}
+.navbar{
+    height:100px;
+    width:100%;
+    /* background-color: cadetblue; */
+     display: flex;
+    align-items:center;
+    justify-content:space-between; 
+}
+.about{
+    height:55%;
+    width:10%;
+    /* background-color: rgb(51, 175, 78); */
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly; 
+}
+.navimages{
+    height:90px;
+    width:400px;
+    /* background-color: rgba(208, 34, 147, 0.722); */
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly; 
+}
+.gimg{
+    height:80px;
+    width:180px;
+    /* background-color: rgb(15, 235, 235); */
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly; 
+}
+a{
+    color:rgb(0, 0, 0);
+}
+.profilebox{
+    height:80px;
+    width:200px;
+    /* background-color: rgb(44, 15, 235); */
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly; 
+}
+.serchlab{
+    height: 40px;
+    width: 40px;
+    /* border: 2px solid red; */
+    border-radius: 50px;
+}
+.apps{
+    height: 40px;
+    width: 40px;
+    /* border: 2px solid red; */
+    border-radius: 50px;
+}
+.application{
+    height: 35px;
+    width: 35px;  
+    border-radius: 20px;
+}
+
+.account{
+    height: 40px;
+    width: 40px;
+    /* border: 2px solid red; */
+    border-radius: 50px;
+}
+.googlebox{
+    height: 180px;
+    width:100%;
+    /* background-color: rgb(69, 106, 34);   */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+h1{
+    font-size:100px;
+    color: rgba(0, 0, 0, 0.484);
+}
+.clickbox{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgba(176, 209, 149, 0.729); */
+
+    
+}
+.click{
+    height: 50px;
+    width: 40%; 
+    display: flex;
+    justify-content:center;
+    border-radius: 50px;
+    align-items: center;
+    border: 1px solid rgb(224, 220, 220);
+    /* background-color: rgba(112, 197, 42, 0.729); */
+}
+.click:hover{
+    box-shadow: 3px 3px #888888;
+}
+.lence{
+    height: 35px;
+    width: 40px;
+}
+.serchcl{
+}
+ .serchclick{ 
+    height:35px;
+    width: 450px;
+    
+} 
+.mic{
+    height: 35px;
+    width: 40px;
+}
+.camera{
+    height: 35px;
+    width: 40px;
+}
+input{
+border: none;
+}
+input:focus{
+    outline: none;
+}
+.serchbox{
+    height:110px;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.revew{
+    height:60px ;
+    width: 320px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.sechbotn{
+height: 45px;
+width: 150px;
+background-color: rgba(215, 220, 211, 0.729);
+display: flex;
+align-items:center;
+justify-content:center;
+}
+.feling{
+    height: 45px;
+    width: 150px;
+    background-color: rgba(215, 220, 211, 0.729);
+
+    display: flex;
+    align-items:center;
+    justify-content:center;  
+}
+.lanbox{
+    text-align: center;
+    height: 180px;
+}
+.lang{
+    /* color: blue; */
+}
+.india{
+      height: 50px;
+        width: 100%;
+    background-color: #dcdcdc;
+    border-bottom: 1px solid rgb(203, 195, 195);
+
+}
+.setting{
+    height: 50px;
+    /* width: 100%; */
+    background-color: #dcdcdc;
+    display: flex; 
+    justify-content:space-between;
+
+}
+.a{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgba(112, 197, 42, 0.729); */
+
+}
+.b{
+    width:20%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(15, 235, 235); */
+
+}
+li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+@media (max-width: 768px) {
+    .india{
+        height: 50px;
+          width: 100%;
+          padding-top: 20px;
+  }
+.a{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.b{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1{
+    font-size:70px;
+    color: rgba(0, 0, 0, 0.484);
+}
+.click{
+    
+    width: 80%;  
+}
+.navimages{
+    height:80%;
+    width:35%;
+    
+}
+.gimg{
+    height:45%;
+    width:50%;
+   
+}
+}
+
+@media (max-width: 375px) {
+
+    .about{
+        height:5%;
+        width:30%;
+        /* background-color: rgb(51, 175, 78);
+        display: flex;
+        align-items:center;
+        justify-content:space-evenly;  */
+    }
+}
